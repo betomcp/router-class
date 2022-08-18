@@ -1,0 +1,17 @@
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" >home</a>
+      </li>
+
+      <li>
+        <a routerLink="/sobre" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">sobre</a>
+      </li>
+
+      <li>
+        <a routerLink="['/404']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">erro</a>
+      </li>
+    </ul>
+  </nav>
+</header>
